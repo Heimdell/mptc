@@ -1,0 +1,34 @@
+name: mtpc
+
+default-extensions:
+- AllowAmbiguousTypes
+- LambdaCase
+- BlockArguments
+- DataKinds
+- OverloadedRecordDot
+- DefaultSignatures
+- DerivingStrategies
+- DeriveFunctor
+- DeriveFoldable
+- DeriveTraversable
+- DeriveAnyClass
+- NoFieldSelectors
+- TemplateHaskell
+- UndecidableInstances
+- ViewPatterns
+
+language: GHC2021
+
+dependencies:
+- base
+- containers
+- hashable
+- unordered-containers
+- unification-xd
+- polysemy
+
+ghc-options: -freverse-errors
+
+library:
+  source-dirs:
+  - src
