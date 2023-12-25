@@ -1,4 +1,4 @@
-name: mtpc
+name: mptc
 
 default-extensions:
 - AllowAmbiguousTypes
